@@ -1,5 +1,5 @@
 {% set name = "pyone" %}
-{% set version = "7.0.0" %}
+{% set version = "7.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyone-{{ version }}.tar.gz
-  sha256: b543f05149a0fd2a9c56f72842acd210ad7614138b991fb2639d24e7f069753e
+  sha256: f940d29d8b3619698b1234e942b103f4ea7a3244daa9850267bf8f4901fd8563
 
 build:
   noarch: python
