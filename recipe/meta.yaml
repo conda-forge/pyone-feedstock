@@ -27,6 +27,7 @@ requirements:
     - six
     - tblib
     - requests
+    - grpcio
 
 test:
   imports:
